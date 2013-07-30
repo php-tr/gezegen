@@ -1,4 +1,4 @@
-gezegen
+PHP-TR GEZEGEN
 =======
 
-gezegen
+PHP ve Teknoloji Bloglar Gezegeni...
