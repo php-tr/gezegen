@@ -1,0 +1,600 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    color:white;
+    text-shadow: none;
+    background-color: #777bb4;     
+}
+
+::selection {
+    color:white;
+    text-shadow: none;
+    background-color: #777bb4;         
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+/* genel */
+
+
+    html {
+        background-image: -ms-radial-gradient(center, circle farthest-side, #FFFFFF 0%, #E5E6E7 100%);
+        background-image: -moz-radial-gradient(center, circle farthest-side, #FFFFFF 0%, #E5E6E7 100%);
+        background-image: -o-radial-gradient(center, circle farthest-side, #FFFFFF 0%, #E5E6E7 100%);
+        background-image: -webkit-gradient(radial, center center, 0, center center, 487, color-stop(0, #FFFFFF), color-stop(1, #E5E6E7));
+        background-image: -webkit-radial-gradient(center, circle farthest-side, #FFFFFF 0%, #E5E6E7 100%);
+        background-image: radial-gradient(circle farthest-side at center, #FFFFFF 0%, #E5E6E7 100%);
+
+        background-color: #E5E6E7;
+    }
+
+    body {
+        width:960px;
+        margin:0 auto;
+        font-family: Georgia, serif;
+        font-size:16px;
+    }
+
+    a, a:link, a:visited {
+        color:#777bb4;
+    }
+
+    a:hover, a:active {
+        color:#176093;
+    }
+
+    ul {
+        margin:0px;
+        padding:0px;
+        list-style: none;
+    }
+
+
+/* üst bölüm */
+
+    header.ust-bolum {
+        margin-top:40px;
+    }
+
+    .logo {
+        float:left;    
+    }
+
+    .logo img {
+        height:50px;
+        width:auto;
+    }
+
+    .logo-type {
+        height:0px;
+        margin: 0px;
+        padding: 0px;
+        text-indent: -9999px; 
+    }
+
+    .arama {
+        margin-top:10px;
+        float:right;
+    }
+
+    .ara {
+        padding:5px 10px;
+        outline: none;
+        width:220px;
+    }
+
+/* üst navigasyon menu */
+
+    .ust-nav-menu {
+        margin: 10px auto;
+
+    }
+
+    .ust-nav {
+        margin:0px;
+        padding:0px;
+    }
+
+    .ust-nav li {
+        display: inline-block;
+        padding: 5px 15px;
+        margin-right:5px;
+        text-align: center;
+    }
+
+    .ust-nav li:hover, .ust-nav li.active, div.etiket-bulutu a:hover, .pagination ul li:hover {
+        background-color: #176093;
+    }
+
+    .ust-nav li a {
+        color: white;
+        text-decoration: none;
+    }
+
+/* yazilar */    
+
+    .content-wrapper {
+        margin-top: 40px;
+    }
+
+    .content {
+        width:70%;
+        float:left;
+        margin-top:5px;
+    }
+
+    .archive-head {
+        padding:10px 25px;
+        background-color: #fff;
+        border-radius: 2px;
+        border: 1px solid #e0e0e0;
+        border-width: 1px 1px 2px 1px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;        
+    }
+
+    article.yazi  {
+        padding:25px 25px;
+        margin:25px 0px;
+        background-color: white;
+        color:#3e3e3e; 
+        
+        border-radius: 2px;
+        border: 1px solid #e0e0e0;
+        border-width: 1px 1px 2px 1px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+
+    }
+
+    article.yazi h2  {
+        font-size:250%;
+        margin:0px;
+        padding:0px;
+        font-weight: normal;
+    }
+
+    article.yazi h2 a {
+        text-decoration: none;
+        color:#333;
+    }    
+
+    article.yazi p {
+        font-size:100%;
+        line-height: 170%;
+    }
+
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%;display: block;
+        padding-top: 30px; height: 0; overflow: hidden;
+        margin-left:-25px;
+        width:calc(100% + 50px);
+    }
+
+    .video-container img,
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+        margin:20px 0px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 99%;
+    }
+
+    article footer span {
+        margin-right:20px;
+    }
+
+    article footer span a {
+        text-decoration: none;
+    }    
+
+    .read-more {
+        margin:20px 0px;
+        text-align:right;
+    }
+
+    .pagination {
+        text-align: center;
+        margin:0 auto;
+    }
+
+    .pagination ul li {
+        padding:5px 10px;
+        margin:0px 5px;
+        display: inline-block;
+        border-radius: 2px;
+        border: 1px solid #e0e0e0;
+        border-width: 1px 1px 2px 1px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        
+    }
+
+    .pagination ul li a {
+        color:white;
+        text-decoration: none;
+        font-size:20px;
+    }
+
+
+/* yan menü */
+
+    .sidebar {
+        float:left;
+        width:25%;
+        margin-left:5%;
+    }
+
+    .sidebar aside {
+        margin-bottom:40px;
+    }
+
+    .sidebar aside h3 {
+        margin-top:0px;
+    }
+
+    div.etiket-bulutu a {
+        display: block;
+        padding: 5px 5px;
+        margin:2px;
+        text-align: center;
+        color:white;
+        font-size:12px;
+        text-decoration: none;
+        float:left;
+    }
+
+
+/* footer */
+
+    .footer-wrapper {
+        padding:5px 0;
+        width:100%;
+        margin-top:40px;
+        text-align:center;
+        
+    }
+
+
+/* Tüm Bölümler Ortak */
+
+    div.etiket-bulutu a, .pagination ul li,  .ust-nav li {
+        background-color: #777bb4;  
+    }
+
+
+
+/* TELEFON */
+@media screen and (max-width: 768px){
+    body {
+        width:90%;
+        font-size:150%;
+    }
+
+    .logo {
+        float:none;
+        text-align: center;
+
+    }
+
+    .logo img {
+        width:100%;
+        height: auto;
+    }
+
+    .ust-nav li {
+        display: block;
+        text-align: center;
+        margin-right:0px;
+        
+    }    
+
+    .content-wrapper {
+        margin-top: 20px;
+    }
+
+
+    .content {
+        width:100%;
+        float:none;
+        margin-top:5px;
+    }
+
+    article.yazi  {
+        margin:15px 0px;
+    }
+
+
+    .arama {
+        width:100%;
+        float:none;
+        text-align: center;
+    }
+
+    .ara {
+        width: calc(100% + -23px);
+    }
+
+    .sidebar {
+        float:none;
+        width:100%;
+        margin-top:40px;
+        margin-left:0px;
+    }
+
+    article footer span {
+        display:none;
+    }
+
+    .read-more {
+        display:block;
+        background-color: #777bb4;
+        text-align: center;
+        padding:10px 0px;
+    }
+
+    .read-more a {
+        color:white;
+    }
+}
+
+
+
+/* TELEFON Küçük */
+@media screen and (max-width: 360px) {
+    body {
+        width:90%;
+        font-size:100%;
+    }
+
+}
+
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    body {
+        width:90%;
+    }
+
+
+    .content-wrapper {
+        margin-top: 20px;
+    }
+
+
+    .content {
+        width:100%;
+        float:none;
+        margin-top:5px;
+    }
+
+    article.yazi  {
+        margin:15px 0px;
+    }
+
+
+    .sidebar {
+        float:none;
+        width:100%;
+        margin-top:40px;
+        margin-left:0px;
+    }
+
+
+
+    .read-more {
+        display:block;
+        background-color: #777bb4;
+        text-align: center;
+        padding:10px 0px;
+    }
+
+    .read-more a {
+        color:white;
+    }
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
